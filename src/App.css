@@ -1,0 +1,60 @@
+.txt-col {
+  color: #1a1c20;
+}
+
+.bg-dark-light {
+  background-color: #23262b;
+}
+
+.txt-green {
+  color: #03c4a1;
+}
+
+.bg-green {
+  background-color: #03c4a1;
+}
+
+.grad-txt {
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.cl-div {
+  background: rgba(189, 189, 189, 0.621);
+  -webkit-backdrop-filter: blur(4px);
+  -moz-backdrop-filter: blur(4px);
+  -moz-backdrop-filter: blur(4px); /* Vendor prefix for Firefox */
+  -moz-filter: blur(4px); /* Vendor prefix for Firefox */
+  filter: blur(4px); /* Fallback for Firefox and Firefox for Android */
+  -webkit-backdrop-filter: blur(4px); /* Vendor prefix for Firefox */
+  backdrop-filter: blur(4px); /* Vendor prefix for Firefox */
+}
+
+/* hover */
+
+.animate1 {
+  animation: slide-down 1s forwards;
+}
+.animate2 {
+  animation: slide-down 1.8s forwards;
+}
+.animate3 {
+  animation: slide-down 2.5s forwards;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.triangle {
+  clip-path: polygon(1% 0, 0% 100%, 100% 50%);
+  background-color: #03c4a1;
+}
